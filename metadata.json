@@ -1,0 +1,6 @@
+{
+  "name": "Noor Boutique — Style That Feels Like You",
+  "description": "Explore elegant women's clothing, casual wear, festive dresses, embroidered suits, and custom stitching at Noor Boutique in Hyderabad, Sindh, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

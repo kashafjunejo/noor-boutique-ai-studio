@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noor Boutique — Style That Feels Like You | Hyderabad, Sindh</title>
+    <meta name="description" content="Discover elegant women's clothing, casual kurtis, festive outfits, embroidered suits, and custom stitching in Hyderabad, Sindh, Pakistan. Traditional elegance, modern style." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Noor Boutique — Style That Feels Like You" />
+    <meta property="og:description" content="Traditional elegance meets modern style. Women's clothing, casual wear, festive dresses & custom stitching in Hyderabad, Pakistan." />
+    <meta property="og:locale" content="en_PK" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Noor Boutique — Style That Feels Like You" />
+    <meta name="twitter:description" content="Traditional elegance meets modern style. Women's clothing, casual wear, festive dresses & custom stitching in Hyderabad, Pakistan." />
+
+    <!-- Google Fonts: Inter and Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClothingStore",
+      "name": "Noor Boutique",
+      "image": "/src/assets/images/hero_boutique_fashion_1792610183515.jpg",
+      "telephone": "+92 300 1234567",
+      "email": "hello@noorboutique.example",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop 12, Fashion Street",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Sindh",
+        "addressCountry": "PK"
+      },
+      "priceRange": "PKR 1,200 - 8,500",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday"],
+          "opens": "15:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "10:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "12:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-white text-slate-800 antialiased font-sans selection:bg-pink-100 selection:text-pink-600">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

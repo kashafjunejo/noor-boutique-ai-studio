@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom interactive button styles matching prompt specifications */
+.btn-pink {
+  background-color: #EC4899;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-pink:hover {
+  background-color: #DB2777;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.25);
+}
+
+.btn-pink:active {
+  transform: translateY(0);
+}
+
+.btn-pink-outline {
+  border: 1.5px solid #EC4899;
+  color: #EC4899;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-pink-outline:hover {
+  background-color: #FDF2F8;
+  color: #DB2777;
+  border-color: #DB2777;
+}
+
+/* Primary accent blue link and text highlights */
+.accent-blue {
+  color: #2563EB;
+}
+
+.bg-accent-blue {
+  background-color: #2563EB;
+}
